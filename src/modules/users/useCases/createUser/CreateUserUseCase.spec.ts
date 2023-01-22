@@ -6,7 +6,7 @@ import { ICreateUserDTO } from "./ICreateUserDTO";
 let createUserUseCase: CreateUserUseCase;
 let inMemoryUsersRepository: InMemoryUsersRepository;
 
-describe("", () => {
+describe("Create User", () => {
 
   beforeEach(() => {
     inMemoryUsersRepository = new InMemoryUsersRepository();
