@@ -3,9 +3,9 @@ import { InMemoryUsersRepository } from "../../../users/repositories/in-memory/I
 import { GetBalanceError } from "./GetBalanceError";
 import { GetBalanceUseCase } from "./GetBalanceUseCase";
 
-let getBalanceUseCase: GetBalanceUseCase;
-let inMemoryStatementsRepository: InMemoryStatementsRepository;
 let inMemoryUsersRepository: InMemoryUsersRepository;
+let inMemoryStatementsRepository: InMemoryStatementsRepository;
+let getBalanceUseCase: GetBalanceUseCase;
 
 describe("Get Balance", () => {
   beforeEach(() => {

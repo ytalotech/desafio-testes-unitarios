@@ -1,10 +1,10 @@
 import { InMemoryUsersRepository } from "../../repositories/in-memory/InMemoryUsersRepository";
 import { CreateUserError } from "./CreateUserError";
-import { CreateUserUseCase } from "./CreateUserUseCase";
 import { ICreateUserDTO } from "./ICreateUserDTO";
+import { CreateUserUseCase } from "./CreateUserUseCase";
 
-let createUserUseCase: CreateUserUseCase;
 let inMemoryUsersRepository: InMemoryUsersRepository;
+let createUserUseCase: CreateUserUseCase;
 
 describe("Create User", () => {
 
